@@ -25,10 +25,10 @@ consultant@CSC2510 cluckHub %
     the owner read, execute, and write rights;
     and others rights to only read the file. (6 pts)
 
-What command would you use to accomplish this? (25 pts)
+What command would you use to accomplish this? 
 
 4.  Using the editor of your choice, please open the the previously created auto.sh file for editing.  Once you have the shell script open,
-    please provide the content you would add for the following:
+    please provide the content you would add for the following: (25 pts)
 
 
 - The auto.sh file will be used to search through all files and directories within a user's home directory and create a new log file listing the files.
