@@ -1,0 +1,77 @@
+Welcome to Test 1 in CSC2510.  This test should cover topics including the
+Linux/Unix terminal, Git, and Bash scripting.  The test is made up of 15 questions
+with question 4 being the most complex and taking the greatest length of time.  The last
+11 questions are rapid fire and should take very little time to complete as compared to the
+first four (4) scenario based questions.
+
+You have been hired as a consultant to help the cluckHub company with Unix related tasks.  The folks at cluckHub have set you up an account to use, consulatant.  
+Given the prompt below, please provide the following you would use to:
+
+consultant@CSC2510 ~ %
+  
+1.  What single line command would you use to create a new repository in the location below(which does not exist yet) with default branch of "Test1".  
+Note, this process should be completed on a single line by chaining commands together. Additionally, note that the creation of the repo
+should only occur if the first part of the chained command works. (5 pts)  After createing the default branch,
+what command would you use to create a new branch of "Test1-Working"(5 pts)
+
+/Users/consultant/cluckHub
+
+
+2.  Given the prompt below, what command would you use to create a new empty file with the name of "auto.sh" without opening a text or code editor? (4 pts)  
+
+consultant@CSC2510 cluckHub %
+
+3.  After creating this new empty file, you need to update the permissions to give the owner group read and execute rights;
+    the owner read, execute, and write rights;
+    and others rights to only read the file. (6 pts)
+
+What command would you use to accomplish this? (25 pts)
+
+4.  Using the editor of your choice, please open the the previously created auto.sh file for editing.  Once you have the shell script open,
+    please provide the content you would add for the following:
+
+
+- The auto.sh file will be used to search through all files and directories within a user's home directory and create a new log file listing the files.
+  that contain that word regardless of case. The script should be designed to recieve input from users for the parameter of the word they are wishing to 
+  find.  When defining this input in your script, please keep in mind that the input is part of the automation process and should not expect interactive 
+  prompts from users. The output from the search findings should be saved to a new file each time.  The file name will be the same as the word the user is 
+  searching for and should have an extension of .log.  For example, if I was looking for the word hippo, the output file should be called hippo.log.
+
+- HINT:  The searching of the files and directories should be done using the grep command
+
+---------------
+
+REPLACE THIS STATEMENT BETWEEN THE DASHED LINES  WITH THE CONTENT OF YOUR NEWLY EDITED auto.sh file
+
+---------------
+
+
+Rapid Fire Questions
+
+5.  What one line command can be used in a bash script to display "What is your name" and capture the user's input to a variable strName? (5pts)
+
+6.  When working with conditional statements in a bash script, what is the symbol or keyterm to  compare if intValue1 is greater than or equal to intValue2
+    within the conditional test?  Note intValue1 and intValue2 are numbers. (5 pts)
+
+7.  What is the command to show the current directory? (5 pts)
+
+8.  What Git command can be used to show any files that are currently staged or have been modified since the previous commit? (5pts)
+
+9.  What command should you use to create a checkpoint for the all the work you have currently completed for the test in the Git repo? (5pts)
+----Note the message should indicate that you have completed the test.
+
+10. Please list six (6) commands that can be used to view the contents of the file test.log which is 8 lines long. (5 pts)
+
+11. Please provide a one line command that will create a file called history.txt that includes all the commands a user has run in the current 
+    terminal session. (5 pts)
+
+12. What chaining character(s) will allow a user to run subsequent commands regardless if the previous command is successful? (5 pts)
+
+13. What command should be used to run auto.sh as a background process? (5 pts)
+
+14. What command should be used to rename the file auto.sh to autofirst.sh? (5 pts)
+
+15. What command should be used to delete the directory hipposRule that currently contains other files? (5 pts)
+
+
+BONUS:  To be elgible for any curve or extra points, please indicate your favorite ice cream flavor below.
